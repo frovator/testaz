@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sh sysctl net.ipv4.ip_forward=1 
 apt update -y 
 apt-get install apache2 -y 
